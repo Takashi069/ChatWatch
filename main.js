@@ -47,8 +47,8 @@ client.on('message_create', async message => {
         //ignore all messages that is not in the group 'cloud gang'
         const chat = await message.getChat();
         // console.log(chat)
-        if (!chat.isGroup || chat.name.toLowerCase() !== 'cloud gang'){
-            console.log("Not Cloud Gang")
+        if (!chat.isGroup || chat.name.toLowerCase() !== '<group name>'){
+            console.log("Not <group name>")
             return
         }
             
