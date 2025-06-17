@@ -16,21 +16,12 @@ client.on('qr', qr => {
 // Start your client
 client.initialize();
 
-//List of badwords: 
-const badWords = [
-    'luke',
-    'oomb',
-    'myre',
-    'kunne',
-    'pundachi',
-    'myr',
-    'pari',
-    'niga',
-    'nigga',
-    'kunna'
+//List of trigger words: 
+const triggerWords = [
+    
 ];
 //Pre-Load the sticker 
-const sticker = MessageMedia.fromFilePath('./BadWordSticker.png');
+const sticker = MessageMedia.fromFilePath('./<image_path>');
 
 //this means it handles any version of letetrs like: é 
 const removeDiacritics = (text) =>
@@ -66,8 +57,8 @@ client.on('message_create', async message => {
 
         //get the message: 
         const msgText = normalizeText(message.body);
-        //iterate through the badwords and check if the message has it or not
-        for (const word of badWords) {
+        //iterate through the trigger words and check if the message has it or not
+        for (const word of triggerWords) {
             if (msgText.includes(word)) {
                 //Identify who triggered the bot
                 const contact = await message.getContact();
