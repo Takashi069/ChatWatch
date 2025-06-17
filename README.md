@@ -41,7 +41,7 @@ ChatWatch/
 1. **Clone the repo** (or copy the code):
 
    ```bash
-   git clone https://github.com/Takashi069s/ChatWatch.git
+   git clone https://github.com/Takashi069/ChatWatch.git
    cd ChatWatch
    ```
 
