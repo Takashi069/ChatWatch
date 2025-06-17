@@ -1,7 +1,3 @@
-Perfect! Let’s write a clean and beginner-friendly `README.md` for **ChatWatch**:
-
----
-
 ## 🛡️ ChatWatch - WhatsApp Sticker Bot
 
 ChatWatch is a lightweight, fun, and reactive WhatsApp bot that monitors group chats for specific "trigger words" and responds by sending a sticker and tagging the user who triggered it.
@@ -120,5 +116,3 @@ ChatWatch/
 * This is a fun, friendly bot—use responsibly ✌️
 
 ---
-
-Want me to export this as a downloadable `README.md` file?
