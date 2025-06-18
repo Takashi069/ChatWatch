@@ -17,7 +17,7 @@ ChatWatch is a lightweight, fun, and reactive WhatsApp bot that monitors group c
 
 ```
 ChatWatch/
-├── index.js                # Main bot logic
+├── main.js                # Main bot logic
 ├── BadWordSticker.png      # Sticker to be sent
 ├── package.json            # Project dependencies
 ```
